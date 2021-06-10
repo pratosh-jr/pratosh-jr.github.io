@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JR LAYOUT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+    *  {
+        box-sizing:border-box;
+      }
+      body {
+
+     font-family: Arial, Helvetica, sans-serif;
+      }
+     header {
+    background-color: chartreuse;
+    padding: 40px;
+    text-align: center;
+    font-size: 35px;
+    color:black;
+     } 
+     nav {
+     float: right;
+     width: 40%;
+     height: 300px;
+     background-color:darkgreen ;
+     
+     }
+     nav ul {
+       list-style-type: none;
+       padding: 0;
+      
+     }
+     article {
+       float: right;
+       padding: 20px;
+       width: 60%;
+       background-color: black;
+       height: 300px; 
+     }
+     section::after {
+         content: none;
+         display:none}
+     footer {
+       background-color: chartreuse;
+       padding: 40px;
+       text-align: center;
+       color: black;
+     }
+     @media (max-width: 600px)
+     {
+       nav, article {
+         width: 100;
+         height: auto;
+       }
+     }
+</style>
+  </head>
+  <body>
+  
+    <table style="width: 100%;">
+      <tr style="color: black; " >
+        <td style="text-align: center;font-size: xx-large;background-color: black;color: chartreuse;" >
+          WORLD'S WEALTH WITH ITS ATOMIC PROPERTIES
+        </td>
+      </tr>
+      </table>
+  <header>
+    <h1>THE RESOLUTION OF NATURE WITH <br>ATOMIC PROPERTIES</h1>
+
+  </header>
+ 
+  <section>
+    <nav  >
+      <style>
+        a:link, a:visited {
+
+          background-color: black;
+          color: chartreuse;
+          text-decoration: none;
+          
+        }
+
+        a:hover, a:active {
+          background-color: blanchedalmond;
+        }
+      </style>
+      
+      <Ol style="background-color: chartreuse ">
+        <li><a href="https://www.vedantu.com/chemistry/properties-of-soil  ">
+         SOIL PROPERTIES</a> </li>
+        <li><a href=" https://thermopedia.com/content/553/">
+         WIND PROPERTIES</a></li>
+         <li><a href=" https://courses.lumenlearning.com/physics/chapter/13-1-temperature/">
+        TEMPERATURE PROPERTIES</a></li>
+        <li><a href="https://www.britannica.com/science/rock-geology/Physical-properties ">
+        ROCK PROPERTIES</a></li>
+        <li><a href="https://www.thoughtco.com/water-chemistry-facts-and-properties-609401 ">
+        WATER PROPERTIES</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/VACUUM ">
+VACCUM PROPERTIES  </a></li>
+      </Ol>
+
+
+      <h2 style="background-color: chartreuse; "> PERSONAL DATA</h2>
+
+      <form>
+        <label for="fname" style="background-color:black ;color: chartreuse; ">GOOD NAME :</label><br>
+        <input type="text" id="fname" name="fname" value="pratosh"><br>
+         <label for="1name" style="background-color: black; color: chartreuse;" >CODE NAME :</label><br>
+         <input type="text" id="1name" name="1name" value="#">
+
+      </form>
+
+    </nav>
+
+    <article>
+      <h1 style="color: chartreuse;font-size: xx-large;text-align: center;"> UNIVERSAL PROPERTIES</h1>
+      
+      <p style="color:lime ;text-align: right; " > A universal property is an important property <br> is satisfied by a universal morphism (see Formal Definition).<br>
+         Universal morphisms can also be thought of more abstractly as initial or terminal objects <br> a comma category (see Connection with Comma Categories).<br> Universal properties occur almost everywhere in mathematics, and hence the precise category theoretic concept helps point out similarities between different branches of mathematics, some of which may even seem unrelated.
+
+        Universal properties may be used in other areas of mathematics implicitly, but the abstract and more precise definition of it can be studied in category theory.
+
+      </p>
+    </article>
+  </section>
+  <footer>
+    <h2 style="color: black;text-align: left  ;font-style:normal ;text-align: center;font-size: xx-large; ">NATURE NAVIGATOR IS AN ESSENCIAL FORM OF NAVIGATION<br> TO EXPERIENCE THE FULNESS OF NATURAL PROPERTIES</h2>
+  </footer>
+  </body>
+
+  
+    
+
+
+    </body>
+</html>
